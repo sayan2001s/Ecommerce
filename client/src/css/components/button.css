@@ -1,0 +1,117 @@
+@import url("../variables/variables.css");
+
+.button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  height: 2.5rem;
+  padding: 0 1rem;
+  border-radius: 0.25rem;
+  font-size: var(--body---medium--600);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button--primary {
+  background-color: var(--primary--500);
+  color: var(--primary--50);
+}
+
+.button--secondary {
+  background-color: var(--secondary--500);
+  color: var(--secondary--50);
+}
+
+.button--ghost {
+  background-color: transparent;
+  color: var(--primary--500);
+}
+
+.button--outline {
+  background-color: transparent;
+  color: var(--primary--500);
+  border: 1px solid var(--primary--500);
+}
+
+.button--danger {
+  background-color: var(--danger--500);
+  color: var(--danger--50);
+}
+
+.button--warning {
+  background-color: var(--warning--500);
+  color: var(--warning--50);
+}
+
+.button--success {
+  background-color: var(--success--500);
+  color: var(--success--50);
+}
+
+.button--disabled {
+  background-color: var(--disabled--500);
+  color: var(--disabled--50);
+  cursor: not-allowed;
+}
+
+.button--sm {
+  height: 2rem;
+  padding: 0 0.75rem;
+  font-size: var(--body---small--600);
+}
+
+.button--lg {
+  height: 3rem;
+  padding: 0 1.5rem;
+  font-size: var(--body---large--600);
+}
+
+.button--md {
+  height: 2.5rem;
+  padding: 0 1rem;
+  font-size: var(--body---medium--600);
+}
+
+.button--icon {
+  padding: 0.5rem;
+  width: 2rem;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+
+.button--ghost:hover {
+  background-color: var(--primary--50);
+  color: var(--primary--500);
+}
+
+.button--primary:hover {
+  background-color: var(--primary--400);
+}
+
+.button--secondary:hover {
+  background-color: var(--secondary--400);
+}
+
+.button--danger:hover {
+  background-color: var(--danger--400);
+}
+
+.button--warning:hover {
+  background-color: var(--warning--400);
+}
+
+.button--success:hover {
+  background-color: var(--success--400);
+}
+
+.button--disabled:hover {
+  background-color: var(--disabled--400);
+}
+
+.button--icon:hover {
+  background-color: var(--primary--50);
+  color: var(--primary--500);
+}
