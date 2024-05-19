@@ -45,7 +45,6 @@ const Card = ({
            </div>}
 
 
-
            <div className={styles.details}>
             {!hideRating && <div className={styles.rating}>
                 <Rating rating={rating} hideRating={false} /><div className={styles.totalSale}>({totalSales})</div>
